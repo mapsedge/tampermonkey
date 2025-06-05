@@ -16,11 +16,11 @@
 		// Check if the key pressed is F9
 		if (event.key === "F9") {
 			// Run your function here
-			myFunction();
+			click_main_button();
 		}
 	});
 
-	function myFunction() {
+	function click_main_button() {
 		let button2 = document.querySelector(".primary-button");
 		// Dispatch the event on the element
 		button2.click();
